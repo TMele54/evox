@@ -34,13 +34,13 @@ the
 Rhode Island Red Rooster
 tonymelerutgers@gmail.com
 '''
-
+123.432.345.768
 #re.search()
 #re.findall()
-p = re.compile('\d{0,3}\.\d{0,3}\.\d{0,3}\.\d{0,3}')
+p1 = re.compile('\d{0,3}\.\d{0,3}\.\d{0,3}\.\d{0,3}')
 p2 = re.compile('^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$')
 
-print p.findall(str)
+print p1.findall(str)
 print p2.findall(str)
 
 # some combination of the above chromosomes will yield better and better matches to the intended search string

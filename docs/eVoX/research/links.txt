@@ -1,3 +1,5 @@
 http://regex.inginf.units.it/  Trieste, Makes regex using GA
 https://regex101.com/   Good tool for evaulation regex online
 https://github.com/DEAP/deap  GA frameowrk python
+
+https://medium.com/@DmitrySoshnikov/regexp-tree-a-regular-expressions-parser-with-a-simple-ast-format-bcd4d5580df6 regex tree structures and optimizers
