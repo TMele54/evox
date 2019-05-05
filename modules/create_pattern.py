@@ -3,7 +3,8 @@ from classes.eVoXCls import eVoX
 
 def generate(user_string, initial_population_size, corpus, elite_size, mutation_rate, generations):
 
-    fitness = eVoX(s1=user_string, document=corpus, initial_population_size=initial_population_size)
+    fitness = eVoX(s1=user_string, document=corpus, initial_population_size=initial_population_size,elite_size=elite_size,
+                   mutation_rate=mutation_rate, generations=generations)
 
     initial_population = fitness.initial_population()
 

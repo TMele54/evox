@@ -85,12 +85,14 @@ class eVoX:
         individuals_fitness = []
 
         for individual in generation:
-            individuals_fitness.append({"index": individual["index"], "fitness":self.evaluate_individual_fitness(individual["pattern"])})
+            individuals_fitness.append({"index": individual["index"], "fitness": self.evaluate_individual_fitness(individual["pattern"])})
 
-        return individuals_fitness
+        ranked_individuals = self.rank_individuals(individuals_fitness)
+
+        return ranked_individuals
 
     # Sort and Rank the top performers in a generation and begin breeding
-    def rank_individuals(self, performances):
-        return ""
+    def rank_individuals(self, population):
+        return sorted(population, key = lambda i: i['fitness'],reverse=True)
 
 
