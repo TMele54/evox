@@ -1,17 +1,16 @@
-from classes.evolution_regular_expression import eVoX
+from classes.eVoXCls import eVoX
 
 
-def generate(user_string, initial_population_size):
-    individual_string = "172."
+def generate(user_string, initial_population_size, corpus, elite_size, mutation_rate, generations):
 
-    fitness = eVoX(s1=user_string, s2=individual_string, initial_population_size=initial_population_size);
+    fitness = eVoX(s1=user_string, document=corpus, initial_population_size=initial_population_size)
 
-    initial_population = fitness.initialPopulation()
+    initial_population = fitness.initial_population()
 
-    print initial_population
+    fitness_matrix = fitness.evaluate_generation(initial_population)
 
 
-    print fitness.evaluate()
+
 
 
 
@@ -46,7 +45,7 @@ basic_elements_of_life = {
 }
 
 '''
-hypo = '''
+'''
     The goal of this project is to generate a regular expression search pattern, given a target chuck of free text. The search pattern will be constructed by using a custom Genetic Algorithm (GA). The GA will use various Regex string 
      subcomponents as genes concatinated sets of these genes will become chromosomes. The fitness function will evaluate
       an individual's chromosome against the user define example string(s). The workflow is as follows, a user will provide the 

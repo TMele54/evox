@@ -383,7 +383,6 @@ def plotRectangles(coorSpace, tBB, creatures):
 
     plt.show()
 
-
 # plots best boxes
 def plotBestRectangles(coorSpace, tBB, creatures):
     cre = creatures

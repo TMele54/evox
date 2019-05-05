@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a45c3aae-ec5b-44de-9090-1fb99f579251" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/classes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/classes/evolution_regular_expression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/create_pattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/regexes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/sub/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/sub/work_around.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scrap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/original_ga.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/ideas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/original_ga_utilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/eVoX/research/links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/eVoX/research/links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/classes/evolution_regular_expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/classes/eVoXCls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/create_pattern.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/create_pattern.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/deapEx.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/original_ga.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/original_ga.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/original_ga_utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/original_ga_utilities.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,38 +25,47 @@
     <session id="-1314492993">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="py" value="8" />
-          <entry key="txt" value="2" />
+          <entry key="json" value="2" />
+          <entry key="py" value="14" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSV" value="1" />
           <entry key="Image" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="8" />
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="79" />
-          <entry key="py" value="4890" />
+          <entry key="dummy" value="86" />
+          <entry key="json" value="127" />
+          <entry key="py" value="8021" />
           <entry key="txt" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="145" />
-          <entry key="Python" value="4890" />
+          <entry key="JSON" value="127" />
+          <entry key="PLAIN_TEXT" value="152" />
+          <entry key="Python" value="8021" />
         </counts>
       </usages-collector>
     </session>
@@ -62,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="506">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -71,26 +84,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/create_pattern.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="31" selection-start-line="31" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="66">
+              <caret line="3" column="86" lean-forward="true" selection-start-line="3" selection-start-column="86" selection-end-line="3" selection-end-column="97" />
               <folding>
-                <element signature="e#1149#2317#0" />
-                <element signature="e#1475#2635#0" />
-                <element signature="e#2636#2917#1" />
+                <element signature="e#352#1713#1" />
+                <element signature="e#1714#2874#1" />
+                <element signature="e#2875#3156#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/classes/evolution_regular_expression.py">
+        <entry file="file://$PROJECT_DIR$/modules/classes/eVoXCls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="38" column="96" selection-start-line="38" selection-start-column="96" selection-end-line="38" selection-end-column="96" />
+            <state relative-caret-position="396">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
-                <element signature="e#127#640#0" />
-                <element signature="e#705#852#0" />
-                <element signature="e#1014#1730#0" />
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#546#1059#0" />
+                <element signature="e#725#1030#0" />
+                <element signature="e#1121#1208#0" />
+                <element signature="e#1330#1535#0" />
+                <element signature="e#1351#1776#0" />
+                <element signature="e#2756#2873#0" />
+                <element signature="e#2652#2845#0" />
               </folding>
             </state>
           </provider>
@@ -99,10 +117,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/original_ga_utilities.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="618">
+              <caret line="202" column="35" lean-forward="true" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
               <folding>
+                <element signature="n#!!doc" />
                 <element signature="e#363#394#0" expanded="true" />
+                <element signature="e#484#604#0" />
+                <element signature="e#921#1565#0" />
+                <element signature="e#978#1435#0" />
+                <element signature="e#1178#1303#0" />
+                <element signature="e#1343#1379#0" />
+                <element signature="e#1441#1469#0" />
+                <element signature="e#1668#2340#0" />
+                <element signature="e#2208#2311#0" />
+                <element signature="e#2249#2311#0" />
+                <element signature="e#2436#2624#0" />
+                <element signature="e#2544#2607#0" />
+                <element signature="e#2746#3083#0" />
+                <element signature="e#2929#2961#0" />
+                <element signature="e#2994#3026#0" />
+                <element signature="e#3153#3485#0" />
+                <element signature="e#4126#4631#0" />
+                <element signature="e#4164#4595#0" />
+                <element signature="e#4432#4468#0" />
+                <element signature="e#4509#4545#0" />
+                <element signature="e#4690#4892#0" />
+                <element signature="e#4762#4869#0" />
+                <element signature="e#4980#5830#0" />
+                <element signature="e#4980#5004#0" />
+                <element signature="e#5305#5343#0" />
+                <element signature="e#5447#5479#0" />
+                <element signature="e#5670#5703#0" />
+                <element signature="e#6554#6598#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/sub/work_around.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+              <folding>
+                <element signature="e#24#1083#0" />
+                <element signature="e#1094#1535#0" />
               </folding>
             </state>
           </provider>
@@ -124,11 +183,25 @@
       <find>[a-z</find>
       <find />
       <find>hypothesis</find>
+      <find>\</find>
+      <find>&quot;</find>
+      <find>print</find>
+      <find>basic_elements_of_life</find>
+      <find>evaluate</find>
+      <find>self.s2</find>
+      <find>editDistance</find>
+      <find>initialPopulation</find>
+      <find>search</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
       <replace>,</replace>
       <replace>hypo</replace>
+      <replace>\\</replace>
+      <replace>beol</replace>
+      <replace>individual</replace>
+      <replace>edit_distance</replace>
+      <replace>initial_population</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -140,13 +213,21 @@
         <option value="$PROJECT_DIR$/modules/base.py" />
         <option value="$PROJECT_DIR$/modules/utils.py" />
         <option value="$PROJECT_DIR$/modules/deapEx.py" />
-        <option value="$PROJECT_DIR$/docs/eVoX/research/links.txt" />
         <option value="$PROJECT_DIR$/modules/classes/eVoX.py" />
         <option value="$PROJECT_DIR$/modules/ideas.py" />
         <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/modules/create_pattern.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/modules/classes/evolution_regular_expression.py" />
+        <option value="$PROJECT_DIR$/modules/original_ga.py" />
+        <option value="$PROJECT_DIR$/data/regexes.csv" />
+        <option value="$PROJECT_DIR$/docs/eVoX/research/links.txt" />
+        <option value="$PROJECT_DIR$/data/basic_elements.json" />
+        <option value="$PROJECT_DIR$/modules/subcomponent/work_around.py" />
+        <option value="$PROJECT_DIR$/scrap.py" />
+        <option value="$PROJECT_DIR$/modules/sub/work_around.py" />
+        <option value="$PROJECT_DIR$/modules/original_ga_utilities.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/modules/create_pattern.py" />
+        <option value="$PROJECT_DIR$/modules/classes/eVoXCls.py" />
       </list>
     </option>
   </component>
@@ -170,6 +251,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,13 +262,17 @@
             <path>
               <item name="evox" type="b2602c69:ProjectViewProjectNode" />
               <item name="evox" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="evox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="evox" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,6 +282,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tonym\OneDrive\AAM_Portfolio\evox\data" />
       <recent name="C:\Users\tonym\OneDrive\AAM_Portfolio\evox\docs" />
     </key>
   </component>
@@ -224,11 +311,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.03848797" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14776632" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -237,9 +333,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.43230402" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32897863" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17933492" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32897863" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -253,6 +349,32 @@
       <window_info anchor="right" id="SciView" order="6" />
       <window_info anchor="right" id="Database" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14776632" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32541567" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="TODO" order="7" visible="true" weight="0.32897863" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17933492" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32897863" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="Remote Host" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -264,70 +386,186 @@
     <entry file="file://$PROJECT_DIR$/docs/regex.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/original_ga.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="221" column="32" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#363#394#0" expanded="true" />
+            <element signature="e#979#1412#1" />
+            <element signature="e#2293#2937#0" />
+            <element signature="e#2350#2807#0" />
+            <element signature="e#2550#2675#0" />
+            <element signature="e#2715#2751#0" />
+            <element signature="e#2813#2841#0" />
+            <element signature="e#3040#3712#0" />
+            <element signature="e#3497#3683#0" />
+            <element signature="e#3580#3683#0" />
+            <element signature="e#3621#3683#0" />
+            <element signature="e#3808#3996#0" />
+            <element signature="e#3916#3979#0" />
+            <element signature="e#4118#4455#0" />
+            <element signature="e#4301#4333#0" />
+            <element signature="e#4366#4398#0" />
+            <element signature="e#4525#4857#0" />
+            <element signature="e#4938#5393#0" />
+            <element signature="e#5280#5372#0" />
+            <element signature="e#5493#5989#0" />
+            <element signature="e#5536#5967#0" />
+            <element signature="e#5804#5840#0" />
+            <element signature="e#5881#5917#0" />
+            <element signature="e#6062#6264#0" />
+            <element signature="e#6134#6241#0" />
+            <element signature="e#6352#7202#0" />
+            <element signature="e#6352#6376#0" />
+            <element signature="e#6677#6715#0" />
+            <element signature="e#6819#6851#0" />
+            <element signature="e#7042#7075#0" />
+            <element signature="e#7310#8341#0" />
+            <element signature="e#7926#7970#0" />
+            <element signature="e#8795#8856#0" />
+            <element signature="e#9003#9827#0" />
+            <element signature="e#9483#9520#0" />
+            <element signature="e#9652#9785#0" />
+            <element signature="e#9925#10675#0" />
+            <element signature="e#10441#10646#0" />
+            <element signature="e#10742#11059#0" />
+            <element signature="e#11127#11349#0" />
+            <element signature="e#11191#11291#0" />
+            <element signature="e#11410#11906#0" />
+            <element signature="e#11494#11605#0" />
+            <element signature="e#11978#12557#0" />
+            <element signature="e#12129#12541#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/regexes.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/basic_elements.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/deapEx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="40">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/dataset-20190505080217.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/eVoX/research/links.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="114" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/original_ga.py">
+    <entry file="file://$PROJECT_DIR$/modules/sub/work_around.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" />
+        <state relative-caret-position="110">
+          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
           <folding>
+            <element signature="e#24#1083#0" />
+            <element signature="e#1094#1535#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/original_ga_utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="202" column="35" lean-forward="true" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" />
             <element signature="e#363#394#0" expanded="true" />
+            <element signature="e#484#604#0" />
+            <element signature="e#921#1565#0" />
+            <element signature="e#978#1435#0" />
+            <element signature="e#1178#1303#0" />
+            <element signature="e#1343#1379#0" />
+            <element signature="e#1441#1469#0" />
+            <element signature="e#1668#2340#0" />
+            <element signature="e#2208#2311#0" />
+            <element signature="e#2249#2311#0" />
+            <element signature="e#2436#2624#0" />
+            <element signature="e#2544#2607#0" />
+            <element signature="e#2746#3083#0" />
+            <element signature="e#2929#2961#0" />
+            <element signature="e#2994#3026#0" />
+            <element signature="e#3153#3485#0" />
+            <element signature="e#4126#4631#0" />
+            <element signature="e#4164#4595#0" />
+            <element signature="e#4432#4468#0" />
+            <element signature="e#4509#4545#0" />
+            <element signature="e#4690#4892#0" />
+            <element signature="e#4762#4869#0" />
+            <element signature="e#4980#5830#0" />
+            <element signature="e#4980#5004#0" />
+            <element signature="e#5305#5343#0" />
+            <element signature="e#5447#5479#0" />
+            <element signature="e#5670#5703#0" />
+            <element signature="e#6554#6598#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/original_ga_utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#363#394#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="506">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/create_pattern.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="31" selection-start-line="31" selection-end-line="45" selection-end-column="1" />
+        <state relative-caret-position="66">
+          <caret line="3" column="86" lean-forward="true" selection-start-line="3" selection-start-column="86" selection-end-line="3" selection-end-column="97" />
           <folding>
-            <element signature="e#1149#2317#0" />
-            <element signature="e#1475#2635#0" />
-            <element signature="e#2636#2917#1" />
+            <element signature="e#352#1713#1" />
+            <element signature="e#1714#2874#1" />
+            <element signature="e#2875#3156#1" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/classes/evolution_regular_expression.py">
+    <entry file="file://$PROJECT_DIR$/modules/classes/eVoXCls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="38" column="96" selection-start-line="38" selection-start-column="96" selection-end-line="38" selection-end-column="96" />
+        <state relative-caret-position="396">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
-            <element signature="e#127#640#0" />
-            <element signature="e#705#852#0" />
-            <element signature="e#1014#1730#0" />
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#546#1059#0" />
+            <element signature="e#725#1030#0" />
+            <element signature="e#1121#1208#0" />
+            <element signature="e#1330#1535#0" />
+            <element signature="e#1351#1776#0" />
+            <element signature="e#2756#2873#0" />
+            <element signature="e#2652#2845#0" />
           </folding>
         </state>
       </provider>

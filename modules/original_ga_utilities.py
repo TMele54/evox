@@ -12,6 +12,8 @@ import random as rand
 ########################################################################################################################
 
 # creates first set of boxes
+
+#check
 def initialPopulation(popSize):
     population = []
 
@@ -132,6 +134,7 @@ def breedPopulation(matingpool, eliteSize, dX, dY):
 
 # gives a random mutation (new box dims, simple change)
 def mutate(individual, mutationRate):
+
     if (rand.random() < mutationRate):
         # rectCreature(X=11, Y=48, H=1152, W=889, l=3)
 
@@ -152,6 +155,7 @@ def mutate(individual, mutationRate):
             totalY = Y + H
 
         individual = rectCreature(X, Y, H, W, l)
+
     return individual
 
 # performs mutations
